@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0158/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0158/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上太清天童護命妙經註
+  date: '2015-08-29 00:48:44.474866'
+  source:
+    repository: kanripo
+    path: KR5c0158
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0158_000-ZTDZ.yaml, hash: 'sha256:c7a74cc8bca2824ff43777f8cda1349ff1e66a83c9d5a9ad404570e5aa28a1d0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0158_000-ZTDZ.markers.yaml, hash: 'sha256:500e897f121eb1b4dbfe6af0af081c47153c61e2bbb3f2f10feba0da9a53bddd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0158_SJB_000-170209c
+    span:
+    - body
+    - 0
+    - 1888
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e6b8b57bf8656053ee02adba62195c00997ee71d0d6a35787f7e7a01f8caa5e5
